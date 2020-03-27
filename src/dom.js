@@ -1,4 +1,4 @@
-import background from './helper';
+import { background, currentDate } from './helper';
 
 const dom = (function () {
   function getElement(id) {
@@ -31,6 +31,7 @@ const humidity = dom.getElement('humidity');
 const wind = dom.getElement('wind');
 const description = dom.getElement('description');
 const img = dom.getElement('img');
+const date = dom.getElement('date');
 
 async function getData(term = 'canada') {
   const key = 'b5ed054d1747afb3b139aafeac6bf446';
@@ -47,6 +48,7 @@ async function getData(term = 'canada') {
     img.setAttribute('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     dom.hideAlert();
     background(data.weather[0].main);
+    date.innerText = currentDate();
     return true;
   } catch (err) {
     dom.showAlert();
