@@ -1,5 +1,6 @@
 import { background, currentDate } from './helper';
 
+// eslint-disable-next-line func-names
 const dom = (function () {
   function getElement(id) {
     return document.getElementById(id);
@@ -35,7 +36,7 @@ const date = dom.getElement('date');
 
 async function getData(term = 'canada') {
   const key = 'b5ed054d1747afb3b139aafeac6bf446';
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${term}&units=metric&APPID=${key}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${term}&units=metric&APPID=${key}`;
   const response = await fetch(url, { mode: 'cors' });
   let data = '';
   try {
@@ -45,7 +46,7 @@ async function getData(term = 'canada') {
     temp.innerText = (data.main.temp).toFixed(1);
     city.innerText = data.name;
     humidity.innerText = data.main.humidity;
-    img.setAttribute('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
+    img.setAttribute('src', `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     dom.hideAlert();
     background(data.weather[0].main);
     date.innerText = currentDate();
