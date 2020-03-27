@@ -1,4 +1,4 @@
-# Restaurant page
+# Weather forecast app
 
 > This repo contains an implementation of a weather forecast app using the open wethr api and sync functions.
 
@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 make sure you have node and npm istalled on you local computer
 ### clone the repo by typing
-```git clone https://github.com/Tresor11/restaurant-page.git```
+```git clone https://github.com/Tresor11/weather-app.git```
 ### Install
 run 
 ```npm install```
