@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tresor11/restaurant-page/5ab887e9602a058ee75b59fb28457f789ac70959/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tresor11/weather-app/3cc4e760f3642dca31b1fa2050b495aa0d8d7483/dist/index.html)
 
 
 ## Getting Started
