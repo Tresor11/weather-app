@@ -1,0 +1,76 @@
+body {
+  overflow: hidden;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.589);
+  height: 15vh;
+}
+
+#search {
+  border-bottom: 3px solid white;
+}
+
+#alert {
+  background-color: rgba(0, 0, 0, 0.322);
+  display: none;
+}
+
+#alert p {
+  font-weight: bolder;
+}
+
+input {
+  background-color: inherit;
+  border: none;
+}
+
+#input {
+  border-bottom: 3px solid white;
+  width: 30%;
+  font-weight: bolder;
+  outline: none;
+  transition: width 1s;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -ms-transition: width 1s;
+  -o-transition: width 1s;
+}
+
+#input:focus {
+  width: 50%;
+}
+
+section {
+  height: 85vh;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+#description {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
+
+.cast {
+  border-bottom: 1px solid white;
+}
+
+#today, #wind, #humidity, #temp {
+  font-family: 'Lato', sans-serif;
+  font-weight: 50;
+}
+
+#city, #today {
+  font-weight: bold;
+}
+
+#temp {
+  font-weight: 900;
+  font-size: 80px;
+}
+
+#date {
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
