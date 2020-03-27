@@ -27,6 +27,7 @@ const dom = (function () {
 }());
 
 const city = dom.getElement('city');
+const country = dom.getElement('country');
 const temp = dom.getElement('temp');
 const humidity = dom.getElement('humidity');
 const wind = dom.getElement('wind');
@@ -45,6 +46,7 @@ async function getData(term = 'canada') {
     wind.innerText = data.wind.speed;
     temp.innerText = (data.main.temp).toFixed(1);
     city.innerText = data.name;
+    country.innerText = data.sys.country;
     humidity.innerText = data.main.humidity;
     img.setAttribute('src', `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     dom.hideAlert();
