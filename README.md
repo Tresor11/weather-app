@@ -1,4 +1,4 @@
-# Restaurant page
+# Weather forecast app
 
 > This repo contains an implementation of a weather forecast app using the open wethr api and sync functions.
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tresor11/restaurant-page/5ab887e9602a058ee75b59fb28457f789ac70959/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tresor11/weather-app/3cc4e760f3642dca31b1fa2050b495aa0d8d7483/dist/index.html)
 
 
 ## Getting Started
@@ -25,12 +25,17 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 make sure you have node and npm istalled on you local computer
 ### clone the repo by typing
-```git clone https://github.com/Tresor11/restaurant-page.git```
+```git clone https://github.com/Tresor11/weather-app.git```
 ### Install
 run 
 ```npm install```
 to get the dependencies
-open your local server and you shpu;d be good to go
+```npm run build```
+to get your main.js file updated
+```cd dist```
+to get the html file
+
+open your local server and you should be good to go
 
 ## Authors
 
