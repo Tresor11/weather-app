@@ -30,8 +30,10 @@ make sure you have node and npm istalled on you local computer
 run 
 ```npm install```
 to get the dependencies
+
 ```npm run build```
 to get your main.js file updated
+
 ```cd dist```
 to get the html file
 
