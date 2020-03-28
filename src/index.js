@@ -1,3 +1,3 @@
-import search from './dom';
+import { search } from './dom';
 
 search();

@@ -4,7 +4,7 @@ body {
 
 header {
   background-color: rgba(0, 0, 0, 0.589);
-  height: 15vh;
+  height: 10vh;
 }
 
 #search {
@@ -42,8 +42,20 @@ input {
 }
 
 section {
-  height: 85vh;
+  height: 90vh;
   background-color: rgba(0, 0, 0, 0.589);
+}
+
+#convert {
+  border-radius: 60%;
+  -webkit-border-radius: 60%;
+  -moz-border-radius: 60%;
+  -ms-border-radius: 60%;
+  -o-border-radius: 60%;
+}
+
+#img-p {
+  height: 60px;
 }
 
 #description {
@@ -56,7 +68,7 @@ section {
   border-bottom: 1px solid white;
 }
 
-#today, #wind, #humidity, #temp, #country {
+#today, #wind, #humidity, #temp, #country, #unit {
   font-family: 'Lato', sans-serif;
   font-weight: 50;
 }
