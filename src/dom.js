@@ -41,7 +41,7 @@ const unit = dom.getElement('unit');
 
 async function getData(term = 'canada') {
   const key = 'b5ed054d1747afb3b139aafeac6bf446';
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${term}&units=metric&APPID=${key}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${term}&units=metric&APPID=${key}`;
   const response = await fetch(url, { mode: 'cors' });
   let data = '';
   try {
