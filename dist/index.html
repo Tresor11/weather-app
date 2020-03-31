@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>weather app</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/styles/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="m-auto col-12 col-md-6 d-flex justify-content-center p-2 p-md-4 ">
+        <input type="text" id="input" class="text-white text-center" placeholder="Serach a city..." aria-describedby="helpId">
+        <img src="./asset/images/search.png" alt="" id="search">
+      </div>
+      <div class="col-12 col-md-6 m-auto" id="alert">
+        <p class="text-center text-white"> plase enter a valid city</p>
+      </div>
+    </header>
+    <section>
+      <h3 class=" text-center py-2 py-md-4 text-white"> <span id="city"></span>, <samp id="country"></samp></h3>
+      <h3 class=" text-center py-1 text-white"><span id="today">TODAY</span>
+        <br><span id="date"></span></h3>
+      <h3 class=" text-center display-3 py-1 text-white"><span id="temp"></span><sup id="unit">C</sup></h3>
+      <p class=" text-center text-white"><button class="btn btn-outline-light" id="convert"> &#176;F</button></p>
+      <p class=" text-center text-white " id="img-p"><img src="" alt="" id="img"></p>
+      <p class=" text-center col-dm-6 col-10 m-auto cast py-md-2 text-white" id="description"></p>
+      <div class="col-8 m-auto py-1">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <p class=" text-center col-8 m-auto py-1 text-white">HUMIDITY</p>
+          <p class=" text-center col-8 m-auto py-md-1 text-white"> <span id="humidity"></span>  <samp>%</samp></p>
+        </div>
+        <div class="col-12 col-md-6">
+          <p class=" text-center col-8 m-auto py-1 text-white">WIND</p>
+          <p class=" text-center col-8 m-auto py-md-1 text-white"> <span id="wind"></span>  <span>m/s</span></p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
