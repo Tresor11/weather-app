@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tresor11/weather-app/42f92f7393aa2b5b8264a361cdb0dcd11dd5c871/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tresor11/weather-app/4f9168043619b255732e9fe95c99197d22b5ddfe/dist/index.html)
 
 
 ## Getting Started
