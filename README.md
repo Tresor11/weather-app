@@ -23,7 +23,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-make sure you have node and npm istalled on you local computer
+make sure you have node and npm istalled on you local computer.
 ### clone the repo by typing
 ```git clone https://github.com/Tresor11/weather-app.git```
 ### Install
