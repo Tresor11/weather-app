@@ -1,17 +1,16 @@
 # Weather forecast app
 
-> This repo contains an implementation of a weather forecast app using the open wethr api and sync functions.
-
+> This repo contains an implementation of a weather forecast app using the OpenWeather API.
 ![screenshot](./shoot.png)
 
 ## Built With
 
-- javaScript,
-- Html,
-- css,
-- boostrap,
-- webpack
-- open weather APi,
+- JavaScript
+- HTML
+- CSS
+- Boostrap
+- Webpack
+- Open Weather APi
 
 ## Live Demo
 
@@ -29,17 +28,17 @@ make sure you have node and npm istalled on you local computer.
 ### Install
 run 
 ```npm install```
-to get the dependencies
+to get the dependencies.
 
 ```npm run build```
-to get your main.js file updated
+to get your main.js file updated.
 
 ```cd dist```
-to get the html file
+to get the html file.
 
-open your local server and you should be good to go
+open your local server and you should be good to go.
 
-## Authors
+## Author
 
 👤 **tresor**
 
