@@ -19,8 +19,6 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 make sure you have node and npm istalled on you local computer.
 ### clone the repo by typing
