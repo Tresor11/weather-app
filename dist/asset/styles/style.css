@@ -9,6 +9,7 @@ header {
 
 #search {
   border-bottom: 3px solid white;
+  cursor: pointer;
 }
 
 #alert {
