@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Tresor11/weather-app#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^9.39.2",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
     "webpack": "^5.94.0",
